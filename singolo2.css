@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.portfolio {
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+.portfolio-section {
+  margin: 0 auto;
+  width: 1020px;
+  height: 864px;
+  padding: 73px 40px;
+}
+.portfolio-header {
+  color: #666d89;
+  font-family: 'Lato Black';
+  font-size: 30px;
+  line-height: 17.86px;
+  letter-spacing: 0.0135em;
+}
+.portfolio-content {
+  margin-top: 27px;
+  font-family: 'Lato Light';
+  line-height: 30px;
+  color: #767e9e;
+  font-size: 18px;
+  word-spacing: 0.01em;
+  letter-spacing: -0.0135em;
+}
+.about {
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+.about-section {
+  margin: 0 auto;
+  width: 1020px;
+  height: 728px;
+  padding: 67px 40px;
+}
+
+.navigation {
+    text-decoration: none;
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    color: #767e9e;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 39px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 5px;
+}
+
+.navigation:hover{
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+.navigation:first-of-type {
+  color: #dedede;
+  border: 1px solid #dedede;
+}
+
+.picture {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  margin-top: 42px;
+}
+.details + .details{
+  margin-left: 20px;
+}
+.details {
+  width: 300px;
+}
+.details-name {
+  color: #666d89;
+  font-family: 'Lato Black';
+  line-height: 17.86px;
+  font-size: 18px;
+  margin-top: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.details-content {
+  font-family: 'Lato Regular';
+  font-size: 12px;
+  line-height: 21.56px;
+  color: #767e9e;
+  margin-top: 10px;
+  text-justify: left;
+}
+.about-main {
+  font-family: 'Lato Black';
+  font-size: 30px;
+  line-height: 17.86px;
+  color: #666d89;
+  margin-top: 5px;
+}
+.about-content {
+  color: #767e9e;
+  font-family: 'Lato Regular';
+  line-height: 30px;
+  font-size: 18px;
+  margin-top: 26px;
+  word-spacing: 0.001em;
+  letter-spacing: -0.019em;
+}
+.miniature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    width: 152px;
+}
