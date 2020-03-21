@@ -494,11 +494,7 @@ form{
   text-align: center;
   margin-right: 10px;
 }
-.icon1{
-  position: absolute;
-  top: 2px;
-  left: 3px;
-}
+
 .contact_info_main .phone{
   color: #F0D8D9;
   position: absolute;
@@ -661,8 +657,6 @@ footer{
   height: 100%;
 }
 
-
-
 .mobile_phone_slides{
   display: none;
   position: absolute;
@@ -750,18 +744,13 @@ footer{
   border: none;
 }
 
-.form_submit:hover{
-  cursor: pointer;
-  background-color: #d6564f;
-}
-
 .modal_overlay{
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, .5);
+  background: #EA676B;
   display: flex;
 }
 
@@ -798,7 +787,7 @@ footer{
 }
 
 .modal_footer button{
-  margin: 10px auto;
+  margin: 20px auto;
   width: 30px;
 }
 
