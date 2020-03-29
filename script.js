@@ -36,7 +36,7 @@ BUTTON.addEventListener('click', (evt) => {
     evt.target.classList.add('active');
 })
 
-
+/////
 
 
 const left_arrow = document.querySelector(".left-arrow");
